@@ -8,5 +8,6 @@ router.register('users',views.UserViewSet)
 
 urlpatterns = [
     path('',include(router.urls)),
+    path('artist',views.ArtistView.as_view())
 ]
 
